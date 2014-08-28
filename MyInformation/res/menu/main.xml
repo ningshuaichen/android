@@ -1,0 +1,38 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:icon="@drawable/actionbar_more_icon">
+        <menu >
+            <item 
+                android:id="@+id/decode"
+                android:showAsAction="always"
+                android:icon="@android:drawable/ic_lock_idle_lock"
+                android:title="@string/decode"/>
+            <item 
+                android:id="@+id/encode"
+                android:showAsAction="always"
+                android:icon="@drawable/unlock"
+                android:title="@string/encode">
+            </item>
+            <item
+                android:id="@+id/about"
+                android:showAsAction="always"
+                android:icon="@drawable/ic_menu_about"
+                android:title="@string/about"/>
+            <item
+                android:id="@+id/tuijian"
+                android:showAsAction="always"
+                android:icon="@android:drawable/ic_menu_zoom"
+                android:title="@string/tuijian"/>
+               <item
+                android:id="@+id/exit"
+                android:showAsAction="always"
+                android:icon="@android:drawable/ic_menu_crop"
+                android:title="@string/exit"/>
+        </menu>
+        </item>
+
+</menu>
